@@ -1,0 +1,14 @@
+{
+  "homepage": "https://zipkin.io/",
+  "version": "2.23.16",
+  "url": "https://search.maven.org/remotecontent?filepath=io/zipkin/zipkin-server/2.23.16/zipkin-server-2.23.16-exec.jar",
+  "hash": "83cd660944fe173afac67ab3de68e102290c9c512af18ec2a124fb30c3db804e",
+  "license": "",
+  "checkver": {
+    "github": "https://github.com/openzipkin/zipkin"
+  },
+  "autoupdate": {
+    "url": "https://search.maven.org/remotecontent?filepath=io/zipkin/zipkin-server/$version/zipkin-server-$version-exec.jar"
+  },
+  "description": "zipkin"
+}
