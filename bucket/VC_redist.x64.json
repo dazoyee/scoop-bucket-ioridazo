@@ -1,0 +1,7 @@
+{
+  "homepage": "https://visualstudio.microsoft.com/ja/downloads/",
+  "version": "2022",
+  "url": "https://aka.ms/vs/17/release/VC_redist.x64.exe",
+  "license": "",
+  "description": "Microsoft Visual C++ Redistributable for Visual Studio 2022"
+}
