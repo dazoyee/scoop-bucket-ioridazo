@@ -1,0 +1,36 @@
+{
+  "version": "8.1.0",
+  "description": "elastic-agent",
+  "homepage": "https://www.elastic.co/products/elastic-agent",
+  "license": {
+    "identifier": "Freeware|Apache-2.0"
+  },
+  "suggest": {
+    "JDK": [
+      "java/oraclejdk",
+      "java/openjdk"
+    ]
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://artifacts.elastic.co/downloads/beats/elastic-agent/elastic-agent-8.1.0-windows-x86_64.zip",
+      "hash": "9df6d640528e16b65e0fa205747fcf37b3407bae466653c0e0c164a6b58ad539",
+      "extract_dir": "elastic-agent-8.1.0-windows-x86_64"
+    }
+  },
+  "checkver": {
+    "url": "https://www.elastic.co/downloads/past-releases",
+    "regex": "elastic-agent-([\\d.]+)-windows-x86_64\\.zip"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://artifacts.elastic.co/downloads/beats/elastic-agent/elastic-agent-$version-windows-x86_64.zip",
+        "extract_dir": "elastic-agent-$version-windows-x86_64"
+      }
+    },
+    "hash": {
+      "url": "$url.sha512"
+    }
+  }
+}
