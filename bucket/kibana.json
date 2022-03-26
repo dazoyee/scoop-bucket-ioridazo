@@ -1,0 +1,45 @@
+{
+  "version": "8.1.0",
+  "description": "kibana",
+  "homepage": "https://www.elastic.co/products/kibana",
+  "license": {
+    "identifier": "Freeware|Apache-2.0"
+  },
+  "suggest": {
+    "JDK": [
+      "java/oraclejdk",
+      "java/openjdk"
+    ]
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://artifacts.elastic.co/downloads/kibana/kibana-8.1.0-windows-x86_64.zip",
+      "hash": "sha512:0f33d3492c9e376dbb06ff838c9d4441ee9a05b7b7e1c4cf777f59a3a7a6b027",
+      "extract_dir": "kibana-8.1.0"
+    }
+  },
+  "bin": [
+    "bin\\kibana.bat",
+    "bin\\kibana-plugin.bat"
+  ],
+  "persist": [
+    "config",
+    "data",
+    "plugins"
+  ],
+  "checkver": {
+    "url": "https://www.elastic.co/downloads/past-releases",
+    "regex": "kibana-([\\d.]+)-windows-x86_64\\.zip"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://artifacts.elastic.co/downloads/kibana/kibana-$version-windows-x86_64.zip",
+        "extract_dir": "kibana-$version"
+      }
+    },
+    "hash": {
+      "url": "$url.sha512"
+    }
+  }
+}
