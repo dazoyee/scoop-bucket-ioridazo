@@ -28,7 +28,7 @@
     "plugins"
   ],
   "checkver": {
-    "url": "https://www.elastic.co/downloads/past-releases",
+    "url": "https://www.elastic.co/jp/downloads/kibana",
     "regex": "kibana-([\\d.]+)-windows-x86_64\\.zip"
   },
   "autoupdate": {

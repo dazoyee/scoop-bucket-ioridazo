@@ -19,7 +19,7 @@
     }
   },
   "checkver": {
-    "url": "https://www.elastic.co/downloads/past-releases",
+    "url": "https://www.elastic.co/jp/downloads/elastic-agent",
     "regex": "elastic-agent-([\\d.]+)-windows-x86_64\\.zip"
   },
   "autoupdate": {
