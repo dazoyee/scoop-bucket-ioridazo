@@ -1,50 +1,50 @@
 {
-  "version": "8.1.0",
-  "description": "logstash",
-  "homepage": "https://www.elastic.co/products/logstash",
-  "license": {
-    "identifier": "Freeware|Apache-2.0"
-  },
-  "suggest": {
-    "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
-    ]
-  },
-  "architecture": {
-    "64bit": {
-      "url": "https://artifacts.elastic.co/downloads/logstash/logstash-8.1.0-windows-x86_64.zip",
-      "hash": "a831a9d9655480e36e4001a78fb756fbe3a75d1c821d726124fb4a8e96abc635",
-      "extract_dir": "logstash-8.1.0"
-    }
-  },
-  "bin": [
-    [
-      "bin\\logstash.bat",
-      "logstash"
-    ],
-    [
-      "bin\\logstash-plugin.bat",
-      "logstash-plugin"
-    ]
-  ],
-  "persist": [
-    "config",
-    "data"
-  ],
-  "checkver": {
-    "url": "https://www.elastic.co/jp/downloads/logstash",
-    "regex": "logstash-([\\d.]+)-windows-x86_64\\.zip"
-  },
-  "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://artifacts.elastic.co/downloads/logstash/logstash-$version-windows-x86_64.zip",
-        "extract_dir": "logstash-$version"
-      }
+    "version": "8.3.2",
+    "description": "logstash",
+    "homepage": "https://www.elastic.co/products/logstash",
+    "license": {
+        "identifier": "Freeware|Apache-2.0"
     },
-    "hash": {
-      "url": "$url.sha512"
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://artifacts.elastic.co/downloads/logstash/logstash-8.3.2-windows-x86_64.zip",
+            "hash": "sha512:cad50525ccfdf150658670cc3c6213c4400d8c171a98d4ab8097101f1980faba90e6c363234d360e94378b24bf3229069d78e85f3d10fbddd12f8d146fa747f6",
+            "extract_dir": "logstash-8.3.2"
+        }
+    },
+    "bin": [
+        [
+            "bin\\logstash.bat",
+            "logstash"
+        ],
+        [
+            "bin\\logstash-plugin.bat",
+            "logstash-plugin"
+        ]
+    ],
+    "persist": [
+        "config",
+        "data"
+    ],
+    "checkver": {
+        "url": "https://www.elastic.co/jp/downloads/logstash",
+        "regex": "logstash-([\\d.]+)-windows-x86_64\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://artifacts.elastic.co/downloads/logstash/logstash-$version-windows-x86_64.zip",
+                "extract_dir": "logstash-$version"
+            }
+        },
+        "hash": {
+            "url": "$url.sha512"
+        }
     }
-  }
 }
