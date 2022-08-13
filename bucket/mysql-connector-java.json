@@ -9,7 +9,7 @@
         "regex": "mysql-connector-java-([\\d.]+).jar"
     },
     "autoupdate": {
-        "url": "https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.28/mysql-connector-java-$version.jar"
+        "url": "https://repo1.maven.org/maven2/mysql/mysql-connector-java/$version/mysql-connector-java-$version.jar"
     },
     "description": "mysql-connector-java"
 }
