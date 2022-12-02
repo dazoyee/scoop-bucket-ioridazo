@@ -1,5 +1,5 @@
 {
-    "version": "8.5.1",
+    "version": "8.5.2",
     "description": "logstash",
     "homepage": "https://www.elastic.co/products/logstash",
     "license": {
@@ -13,9 +13,9 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://artifacts.elastic.co/downloads/logstash/logstash-8.5.1-windows-x86_64.zip",
-            "hash": "sha512:8d71f2ee20568c461bab83187a75f2a8af46353c6d947ef8cad35136e09397542a5bd0397a70d985d469e85203705677679672023aa93ddc6a6f8b5ae9fa9ea0",
-            "extract_dir": "logstash-8.5.1"
+            "url": "https://artifacts.elastic.co/downloads/logstash/logstash-8.5.2-windows-x86_64.zip",
+            "hash": "sha512:d405bcdfa8103fabdd022b041ccf11a44687db54bddb171883335573fdea256d6e77e6564ca0fcaa9e489cc8e6a72d0f752bd042526b14a5d4ebd479460e6de5",
+            "extract_dir": "logstash-8.5.2"
         }
     },
     "bin": [
