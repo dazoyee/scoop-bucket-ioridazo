@@ -1,3 +1,4 @@
+setlocal
 :: 設定ファイルを読み込む
 for /f "usebackq tokens=1,* delims==" %%a in ("env") do (
     set %%a=%%b
@@ -13,5 +14,11 @@ if not exist %SCOOP%\apps\zipkin\current\zipkin-server-exec.jar copy /b %SCOOP%\
 ::set ES_PASSWORD=%ES_PASSWORD%
 ::set ES_HTTP_LOGGING=BASIC
 
+set STORAGE_TYPE=mysql
+set MYSQL_USER=%MYSQL_USER%
+set MYSQL_PASS=%MYSQL_PASS%
+
 :: java -jar zipkin-server-2.23.16-exec.jar
 %SCOOP%\apps\openjdk11\current\bin\java.exe -jar %SCOOP%\apps\zipkin\current\zipkin-server-exec.jar
+
+endlocal
