@@ -1,5 +1,5 @@
 {
-    "version": "7.17.19",
+    "version": "8.13.1",
     "description": "elastic-agent",
     "homepage": "https://www.elastic.co/products/elastic-agent",
     "license": {
@@ -13,9 +13,9 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://artifacts.elastic.co/downloads/beats/elastic-agent/elastic-agent-7.17.19-windows-x86_64.zip",
-            "hash": "sha512:5bf100e984f3ef976e559a084f8818a34e65b88b1cf3d71a0a52b80ddd7385905733ed94859d2bc5728f21a79795c78c4dc561ee84b9bbefdd76cefa3c5b9d65",
-            "extract_dir": "elastic-agent-7.17.19-windows-x86_64"
+            "url": "https://artifacts.elastic.co/downloads/beats/elastic-agent/elastic-agent-8.13.1-windows-x86_64.zip",
+            "hash": "sha512:7e49311c3cdce340e0f643ff00f28fd7c6e10c3c52740fd1b073b0eaa06a7910686bbed883df81bcadba9126fb7977ddfb1833b1965895e6a38ccb209fe03889",
+            "extract_dir": "elastic-agent-8.13.1-windows-x86_64"
         }
     },
     "checkver": {
