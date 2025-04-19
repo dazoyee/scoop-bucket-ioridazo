@@ -1,8 +1,8 @@
 {
     "homepage": "https://www.adminer.org",
-    "version": "5.0.5",
-    "url": "https://github.com/vrana/adminer/releases/download/v5.0.5/adminer-5.0.5.php",
-    "hash": "ea6feaa66f7fbedb9f8b87aadd6e253797b93857d45eb3a48bf68085679ef461",
+    "version": "5.2.1",
+    "url": "https://github.com/vrana/adminer/releases/download/v5.2.1/adminer-5.2.1.php",
+    "hash": "572118dff2305f136a4b8d59404d01c3d8450e99e3abd506081ffdddd8816573",
     "license": "",
     "checkver": {
         "github": "https://github.com/vrana/adminer"
