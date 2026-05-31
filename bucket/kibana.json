@@ -1,5 +1,5 @@
 {
-    "version": "9.1.1",
+    "version": "9.4.2",
     "description": "kibana",
     "homepage": "https://www.elastic.co/products/kibana",
     "license": {
@@ -13,9 +13,9 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://artifacts.elastic.co/downloads/kibana/kibana-9.1.1-windows-x86_64.zip",
-            "hash": "sha512:2704c1dd59dfdd71af53be27617ccb168e0424d5793c2490e4b3d88a208f038ff774a7a1dc484832c0abe37e644add51f93a4472abce5f824897159d3ff6e6c8",
-            "extract_dir": "kibana-9.1.1"
+            "url": "https://artifacts.elastic.co/downloads/kibana/kibana-9.4.2-windows-x86_64.zip",
+            "hash": "sha512:75aff48ae62bacf26293b143a1c12f0423b802db02764718cf37249125e2a6f431cee522dc9e0a0055227cc26fbb5c8976351c8cda1a602f2c0c42d2ede2fd26",
+            "extract_dir": "kibana-9.4.2"
         }
     },
     "bin": [
